@@ -3,7 +3,6 @@ def my_collect(arg)
   while i < arg.length
     yield arg[1]
       i += 1
-    my_collect.upcase
  end
 end
 
