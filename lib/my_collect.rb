@@ -4,5 +4,6 @@ def my_collect(arg)
     yield arg[1].upcase
       i += 1
  end
+ my_collect
 end
 
