@@ -5,5 +5,6 @@ def my_collect(arg)
     collection << yield arg[1].upcase
       i += 1
  end
+ collection
 end
 
